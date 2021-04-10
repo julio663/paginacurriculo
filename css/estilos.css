@@ -1,0 +1,123 @@
+
+body{
+    background: burlywood;
+}
+#header{
+    background:rgb(93, 218, 159) ;
+}
+  h1{
+      
+      background:rgb(158, 214, 25);
+}
+
+
+  
+  
+  @media (min-width: 1201px) and (max-width:1740px) {
+   
+    
+      
+      
+   
+    #izquierda {
+      float: left;
+      width: 30%;
+      
+    }
+    
+    #contenidoDerecho {
+      float: right;
+      width: 70%;
+      
+    }
+    #derecha {
+      float: right;
+      width: 50%;  
+    }
+    
+    #centro {
+      float: left;
+      width: 50%;
+    }
+    
+    
+    #centro li,
+    #derecha li {
+        color:blue;
+      }
+    #derecha strong,
+    #centro strong{
+          color: black;
+        }
+   
+  }
+  
+  
+  @media (min-width: 601px) and (max-width:1200px) {
+    
+    
+    #izquierda {
+      float: left;
+      width: 30%;
+     
+      
+    }
+    
+    #contenidoDerecho {
+      float: right;
+      width: 70%;
+      
+      
+    }
+    #izquierda li strong {
+      display: block;
+    }
+    
+    #izquierda ul {
+      list-style: none;
+      padding: 0;
+      
+    }
+    
+    #centro li,
+    #derecha li {
+        color:blue;
+      }
+    #derecha strong,
+    #centro strong{
+          color: black;
+        }
+  }
+  
+  
+  @media (max-width: 600px) {
+    
+  
+    h1 {
+      font-size: 2pc;
+    }
+  
+    h2 {
+      font-size: 20pt;
+      border-bottom: 2px solid black;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    li strong {
+      display: block;
+  
+    }
+    #centro li,
+    #derecha li {
+        color:blue;
+      }
+    #derecha strong,
+    #centro strong{
+          color: black;
+        }
+  }
+  
